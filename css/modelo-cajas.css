@@ -1,0 +1,34 @@
+
+.container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modulo-grande {
+  width: 300px;
+  background-color: #F5F5F5;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  border: 4px #EA6363 solid;
+  float: left;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.modulo-grande2 {
+  width: 300px;
+  background-color: #F5F5F5;
+  text-align: center;
+  margin: 10px;
+  float: left;
+}
+
+.modulo-interno {
+  border: 4px solid #FFB5B5;
+  padding: 10px;
+}

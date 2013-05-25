@@ -1,0 +1,46 @@
+
+body {
+  background-image: url(../img/17.png) ;
+  background-color: #000000;
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #373737;
+  text-align: center; 
+  /*
+
+  Esto es para colocar versalitas
+  font-variant: small-caps;
+
+  Esto es para controlar las negritas
+  font-weight: bold;
+  
+  Estilo de la fuente
+  font-style: italic;
+  */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  font-weight: 300;
+}
+
+h1 { font-size: 2.8em; }
+h2 { font-size: 2.2em; }
+h3 { font-size: 2.0em; }
+h4 { font-size: 1.8em; }
+h5 { font-size: 1.6em; }
+h6 { font-size: 1.4em; }
+
+p {
+  line-height: 1.5em;
+  margin: 3em 0;
+}
+
+.contenedor-pagina {
+  background-color: #F6F4F4;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
