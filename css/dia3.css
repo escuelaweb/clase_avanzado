@@ -13,3 +13,10 @@
 .pb-20 { padding-bottom: 20px; }
 .pb-40 { padding-bottom: 40px; }
 .pb-60 { padding-bottom: 60px; }
+
+.iconos-grande {
+  color: #5A5A5A;
+  font-size: 40px;
+  width: auto;
+  height: auto;
+}
