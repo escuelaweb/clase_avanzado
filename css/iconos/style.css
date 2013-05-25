@@ -1,0 +1,207 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot');
+	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.ttf') format('truetype'),
+		url('fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-twitter, .icon-facebook, .icon-feed, .icon-google-plus, .icon-youtube, .icon-flickr, .icon-picassa, .icon-github, .icon-wordpress, .icon-steam, .icon-screen, .icon-laptop, .icon-mobile, .icon-mobile-2, .icon-tablet, .icon-tv, .icon-location, .icon-location-2, .icon-compass, .icon-history, .icon-clock, .icon-credit, .icon-coin, .icon-support, .icon-books, .icon-pencil, .icon-home, .icon-users, .icon-user, .icon-disk, .icon-box-remove, .icon-box-add, .icon-bubble, .icon-bubbles, .icon-spinner, .icon-spinner-2, .icon-zoom-in, .icon-zoom-out, .icon-search, .icon-settings, .icon-cog, .icon-equalizer, .icon-cog-2, .icon-lock, .icon-unlocked, .icon-lock-2, .icon-firefox, .icon-IE, .icon-opera, .icon-safari, .icon-pinterest, .icon-stumbleupon, .icon-html5, .icon-html5-2, .icon-css3, .icon-chrome {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-twitter:before {
+	content: "\e000";
+}
+.icon-facebook:before {
+	content: "\e001";
+}
+.icon-feed:before {
+	content: "\e002";
+}
+.icon-google-plus:before {
+	content: "\e003";
+}
+.icon-youtube:before {
+	content: "\e004";
+}
+.icon-flickr:before {
+	content: "\e005";
+}
+.icon-picassa:before {
+	content: "\e006";
+}
+.icon-github:before {
+	content: "\e007";
+}
+.icon-wordpress:before {
+	content: "\e008";
+}
+.icon-steam:before {
+	content: "\e009";
+}
+.icon-screen:before {
+	content: "\e00a";
+}
+.icon-laptop:before {
+	content: "\e00b";
+}
+.icon-mobile:before {
+	content: "\e00c";
+}
+.icon-mobile-2:before {
+	content: "\e00d";
+}
+.icon-tablet:before {
+	content: "\e00f";
+}
+.icon-tv:before {
+	content: "\e00e";
+}
+.icon-location:before {
+	content: "\e010";
+}
+.icon-location-2:before {
+	content: "\e011";
+}
+.icon-compass:before {
+	content: "\e012";
+}
+.icon-history:before {
+	content: "\e013";
+}
+.icon-clock:before {
+	content: "\e014";
+}
+.icon-credit:before {
+	content: "\e015";
+}
+.icon-coin:before {
+	content: "\e016";
+}
+.icon-support:before {
+	content: "\e017";
+}
+.icon-books:before {
+	content: "\e018";
+}
+.icon-pencil:before {
+	content: "\e019";
+}
+.icon-home:before {
+	content: "\e01a";
+}
+.icon-users:before {
+	content: "\e01b";
+}
+.icon-user:before {
+	content: "\e01c";
+}
+.icon-disk:before {
+	content: "\e01d";
+}
+.icon-box-remove:before {
+	content: "\e01e";
+}
+.icon-box-add:before {
+	content: "\e01f";
+}
+.icon-bubble:before {
+	content: "\e020";
+}
+.icon-bubbles:before {
+	content: "\e021";
+}
+.icon-spinner:before {
+	content: "\e022";
+}
+.icon-spinner-2:before {
+	content: "\e023";
+}
+.icon-zoom-in:before {
+	content: "\e024";
+}
+.icon-zoom-out:before {
+	content: "\e025";
+}
+.icon-search:before {
+	content: "\e026";
+}
+.icon-settings:before {
+	content: "\e027";
+}
+.icon-cog:before {
+	content: "\e028";
+}
+.icon-equalizer:before {
+	content: "\e029";
+}
+.icon-cog-2:before {
+	content: "\e02a";
+}
+.icon-lock:before {
+	content: "\e02b";
+}
+.icon-unlocked:before {
+	content: "\e02c";
+}
+.icon-lock-2:before {
+	content: "\e02d";
+}
+.icon-firefox:before {
+	content: "\e02f";
+}
+.icon-IE:before {
+	content: "\e030";
+}
+.icon-opera:before {
+	content: "\e031";
+}
+.icon-safari:before {
+	content: "\e032";
+}
+.icon-pinterest:before {
+	content: "\e033";
+}
+.icon-stumbleupon:before {
+	content: "\e034";
+}
+.icon-html5:before {
+	content: "\e035";
+}
+.icon-html5-2:before {
+	content: "\e036";
+}
+.icon-css3:before {
+	content: "\e02e";
+}
+.icon-chrome:before {
+	content: "\e037";
+}
