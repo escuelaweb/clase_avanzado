@@ -1,0 +1,104 @@
+
+a {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+}
+
+
+.pt10 { padding-top: 10px }
+.pt20 { padding-top: 20px }
+.pt30 { padding-top: 30px }
+.pt40 { padding-top: 40px }
+
+.pb10 { padding-bottom: 10px }
+.pb20 { padding-bottom: 20px }
+.pb30 { padding-bottom: 30px }
+.pb40 { padding-bottom: 40px }
+
+.boton {
+  font-family     : Roboto;
+  color           : #EFEFEF;
+  background-color: #4A4A4A;
+  display         : inline-block;
+  padding         : 15px 10px;
+  text-decoration : none;
+  border          : 1px solid #DADADA;
+}
+
+.boton:hover {
+  background-color: #404040;
+  color           : #FFFFFF;
+  text-decoration : none;
+}
+
+.boton-css3 {
+  font-size: 32px;
+  border-radius: 10px;
+  color: #eeeeee;
+
+  -webkit-box-shadow: 0px 1px 2px 0px #C8C8C8;
+  box-shadow: 0px 1px 2px 0px #C8C8C8;
+  text-shadow: -1px 1px 0 #252525, 1px -1px 0 #252525, -1px -1px 0 #252525, 1px 1px 0 #252525;
+  background-color: #000;
+  background-color: rgba();
+  background: #eeeeee;
+
+  background: -webkit-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+  background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+  background: -o-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+  background: -ms-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+  background: linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
+
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+
+.boton-css3:hover {
+  -webkit-transform: scale(1.1) rotate(10deg);
+  -moz-transform   : scale(1.1) rotate(10deg);
+  -o-transform     : scale(1.1) rotate(10deg);
+  -ms-transform    : scale(1.1) rotate(10deg);
+  transform        : scale(1.1) rotate(10deg);
+}
+
+.boton-css3:active {
+  box-shadow: inset 0 0 40px 0 #FF0000;
+}
+
+.boton-image {
+  color: #000000;
+  display: inline-block;
+  width: 205px;
+  height: 55px;
+  text-decoration: none;
+  text-align: center;
+  background-image: url(../img/button_no_text.png);
+  background-position: -48px -38px;
+  font-size: 18px;
+  line-height: 50px;
+
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+
+.boton-image:hover {
+  color: #FFFFFF;
+  background-position: -280px -38px;
+}
+
+.navbar .nav > li > a:hover {
+  box-shadow: inset 0 0 10px 0 #868686;
+  background-color: #D6D6D6;
+}
