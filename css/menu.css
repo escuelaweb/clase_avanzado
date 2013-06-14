@@ -1,0 +1,111 @@
+
+/*
+font-family: 'Dosis', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+body {
+	height: 8000px;
+}
+
+.fondo-menu {
+	height: 50px;
+	background-color: #04CF3E;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 50px;
+	background-color: #04CF3E;
+}
+
+.menu li {
+	float: left;
+}
+
+.menu a {
+	display         : inline-block;
+	font-family     : 'Open Sans', sans-serif;
+	font-size       : 16px;
+	padding         : 8px 20px;
+	margin          : 7px 10px;
+	border-radius   : 5px;
+	color           : #C5FCD4;
+	background-color: #04C23B;
+	text-decoration : none;
+}
+
+.menu a:hover {
+	background-color: #00D53C;
+	text-decoration: none;
+	color: white;
+}
+
+.menu-completo a {
+	padding: 0 60px;
+	margin: 0;
+	border-radius: 0;
+	height: 50px;
+	line-height: 50px;
+	/*este es el mismo fondo que tiene todo el .menu*/
+	background-color: #04CF3E; 
+}
+
+.menu-completo li:last-child a {
+	padding: 0 64px;
+}
+
+footer {
+	height: 50px;
+	background-color: #252525;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+footer .menu {
+	background-color: #252525;
+}
+footer .menu a {
+	background-color: #252525;
+}
+footer .menu a:hover {
+	background-color: #4A4A4A;
+}
+
+.menu-vertical {
+	height: auto;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+.menu-vertical li {
+	float: none;
+}
+.menu-vertical a {
+	display: block;
+	padding: 0 20px;
+}
+
+.menu-vertical a .icono {
+	color: #000000;
+	float: right;
+	line-height: 50px;
+}
+
+.menu-vertical li:last-child a {
+	padding: 0 20px;
+}
+
+#main {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
