@@ -1,0 +1,36 @@
+/*tema.css*/
+
+#header{
+	height: 100px;
+}
+
+#header .social_net{
+
+}
+#slide{
+	height: 500px;
+	background-color: #404040;
+	color: #EDEDED;
+	font-size: 20px;
+}
+
+#venta{
+	height: 260px;
+}
+
+#process{
+	height: 440px;
+}
+
+.circulo{
+	display: inline-block;
+	width:150px;
+	height: 150px;
+	border-radius: 75px;  /*La mitad del altoy ancho*/
+	border-radius: 50%;   /*para cualquier altos y anchos*/
+
+	background-color: #5FC23D;
+	text-align: center;
+	line-height: 150px;
+	font-size: 40px;
+}

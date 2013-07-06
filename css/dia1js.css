@@ -1,0 +1,8 @@
+/*dia1js.css*/
+
+.tabs-mias {
+	display: none;
+}
+.tabs-mias.active {
+	display: block;
+}
